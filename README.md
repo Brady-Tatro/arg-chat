@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 # Arg Chat
 Your app description, here.
+# arg-chat
