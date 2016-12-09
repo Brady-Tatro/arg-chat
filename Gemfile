@@ -9,8 +9,8 @@ gem 'listen'
 gem 'devise'
 gem 'bootstrap'
 gem 'redis'
-gem 'coffee-rails'
-gem 'turbolinks'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'turbolinks', '>= 5.0.0.beta2'
 
 group :development, :test do
   gem 'capybara'
