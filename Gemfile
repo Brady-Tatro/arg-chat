@@ -19,6 +19,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'shoulda'
   gem 'valid_attribute'
+  gem 'puma'
 end
 
 group :test do
