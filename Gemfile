@@ -10,7 +10,9 @@ gem 'devise'
 gem 'bootstrap'
 gem 'redis'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'turbolinks', '>= 5.0.0.beta2'\
+gem 'turbolinks', '>= 5.0.0.beta2'
+gem 'puma'
+
 
 group :development, :test do
   gem 'capybara'
@@ -19,7 +21,6 @@ group :development, :test do
   gem 'pry-rails'
   gem 'shoulda'
   gem 'valid_attribute'
-  gem 'puma'
 end
 
 group :test do
