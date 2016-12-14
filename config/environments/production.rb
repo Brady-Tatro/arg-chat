@@ -37,9 +37,9 @@ Rails.application.configure do
   # Mount Action Cable outside main process or domain
   # config.action_cable.mount_path = nil
 
- config.action_cable.allowed_request_origins = ['https://sitepoint-actioncable.herokuapp.com',
-                            'http://sitepoint-actioncable.herokuapp.com']
-config.action_cable.url = "wss://sitepoint-actioncable.herokuapp.com/cable"
+ config.action_cable.allowed_request_origins = ['https://argchat.herokuapp.com',
+                            'https://argchat.herokuapp.com']
+config.action_cable.url = "wss://argchat.herokuapp.com/cable"
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
 
