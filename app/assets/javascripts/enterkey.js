@@ -1,4 +1,4 @@
-$("input").keypress(function(event) {
+$("post").keypress(function(event) {
     if (event.which == 13) {
         event.preventDefault();
         $("form").submit();
