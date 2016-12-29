@@ -5,3 +5,7 @@
 #hide_me {
   visibility: hidden;
 }
+.form-control {
+  background-color: #000000;
+  color: #0AD6FF;
+}
