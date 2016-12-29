@@ -6,8 +6,7 @@
 <%= form_for @message, url: '#' do |f| %>
   <%= hidden_field_tag 'chat_room_id', @chat_room.id %>
   <div class="form-group">
-    <%= f.label :body, id: "hide_me" %> =>
-    <%= f.text_field :body, class: 'form-control' %>
+    =><%= f.text_field :body, class: 'form-control' %>
   </div>
 
   <%= f.submit "Post", class: 'btn btn-primary btn-lg', id: "hide_me" %>
