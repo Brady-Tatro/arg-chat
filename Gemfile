@@ -12,7 +12,7 @@ gem 'redis'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'turbolinks', '>= 5.0.0.beta2'
 gem 'puma'
-
+gem 'foundation-rails'
 
 group :development, :test do
   gem 'capybara'

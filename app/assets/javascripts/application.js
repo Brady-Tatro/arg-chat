@@ -12,6 +12,9 @@
 //
 //= require jquery2
 //= require jquery_ujs
+//= require foundation
 //= require cable
 //= require turbolinks
 //= require_tree .
+
+$(function(){ $(document).foundation(); });
