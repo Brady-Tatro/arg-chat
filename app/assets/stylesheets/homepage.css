@@ -8,6 +8,7 @@
 .testing {
   background-color: #000000;
   color: #0AD6FF;
+  backface-visibility: hidden;
 }
 
 .card-text {
