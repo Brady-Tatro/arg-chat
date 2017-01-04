@@ -20,6 +20,10 @@
     <em> Password Confirmation </em> <br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
+  <div>
+    <em> admin? </em>
+    <%= f.check_box :admin, {}, true %>
+  </div>
 
   <div class="actions">
     <%= f.submit "Sign up" %>

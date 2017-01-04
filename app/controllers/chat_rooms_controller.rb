@@ -1,4 +1,5 @@
 class ChatRoomsController < ApplicationController
+  require 'pry'
   def index
     @chat_rooms = ChatRoom.all
   end

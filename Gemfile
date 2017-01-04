@@ -13,6 +13,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'turbolinks', '>= 5.0.0.beta2'
 gem 'puma'
 gem 'foundation-rails'
+gem 'rb-readline'
 
 group :development, :test do
   gem 'capybara'

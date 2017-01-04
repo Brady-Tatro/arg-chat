@@ -16,7 +16,8 @@
 <ul class="menu">
  <% if user_signed_in? %>
    <li> <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </li>
-   <li> <%= current_user.email %>
+   <li> <%= link_to current_user.email, edit_user_registration_path %></li>
+   <li> <%= link_to 'Room Selection', chat_rooms_path %> </li>
  <% else %>
    <li> <%= link_to 'Sign Up', new_user_registration_path %> </li>
  <% end %>
