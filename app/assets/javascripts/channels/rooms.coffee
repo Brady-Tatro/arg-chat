@@ -1,4 +1,5 @@
 jQuery(document).on 'turbolinks:load', ->
+  window.scrollTo(0,document.body.scrollHeight);
   messages = $('#messages')
   if $('#messages').length > 0
     messages_to_bottom = -> messages.scrollTop(messages.prop("scrollHeight"))
@@ -10,7 +11,6 @@ jQuery(document).on 'turbolinks:load', ->
         chat_room_id: messages.data('chat-room-id')
       },
       connected: ->
-        # Called when the subscription is ready for use on the server
 
       disconnected: ->
         # Called when the subscription has been terminated by the server

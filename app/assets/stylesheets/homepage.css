@@ -1,26 +1,9 @@
-#main {
-  background: #000000;
-  color: #0AD6FF;
-}
+
 #hide_me {
   visibility: hidden;
 }
 .testing {
-  background-color: #000000;
-  color: #0AD6FF;
-  backface-visibility: hidden;
-}
-
-.card-text {
-  background-color: #000000;
-  color: #0AD6FF;
-}
-.form-group {
-  background-color: #000000;
-  color: #0AD6FF;
-}
-
-.field {
-  background-color: #000000;
-  color: #0AD6FF;
+  border-style: none;
+   border-color: Transparent;
+   border-bottom: 2px solid black;
 }
