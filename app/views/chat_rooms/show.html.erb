@@ -5,7 +5,8 @@
 </div>
 <%= form_for @message, url: '#' do |f| %>
   <%= hidden_field_tag 'chat_room_id', @chat_room.id %>
+  ----
+    <%=  f.text_field  :body, class: 'testing' %>
 
-    =><%= f.text_field :body, class: 'testing' %>
     <%= f.submit "Post", class: 'btn btn-primary btn-lg', id: "scroll" %>
 <% end %>

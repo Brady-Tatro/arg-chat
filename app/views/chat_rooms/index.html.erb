@@ -1,7 +1,5 @@
-<h1>Chat rooms</h1>
-
-<p class="lead"><%= link_to 'New chat room', new_chat_room_path, class: 'btn btn-primary' %></p>
-
-<ul>
-  <%= render @chat_rooms %>
-</ul>
+<div class="row">
+  <div class="large-6 columns">
+    <%= link_to 'New chat room', new_chat_room_path, id: "new_room" %>
+  <%= render @chat_rooms %></div>
+</div>

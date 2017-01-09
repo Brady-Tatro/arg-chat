@@ -1,9 +1,15 @@
 
-#hide_me {
+#scroll {
   visibility: hidden;
 }
 .testing {
   border-style: none;
    border-color: Transparent;
    border-bottom: 2px solid black;
+   width: 400px;
+   margin-left: 10px;
+}
+
+#new_room {
+  border-bottom: 2px solid black;
 }
